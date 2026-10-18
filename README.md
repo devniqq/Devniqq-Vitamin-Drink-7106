@@ -1,6 +1,5 @@
 # App template
 
-Runable copies this Bun and Turborepo project into each new sandbox.
 
 The root package commands are the external contract:
 
