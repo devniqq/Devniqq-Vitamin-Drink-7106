@@ -7,7 +7,8 @@ function App() {
   return (
     <Provider>
       <Switch>
-        <Route path="/" component={Index} />
+        {/* "*" so the page also matches under GitHub Pages' /<repo>/ base path */}
+        <Route path="*" component={Index} />
       </Switch>
       {/* Do not remove — off by default, activated by parent iframe via postMessage */}
       {import.meta.env.DEV && <AgentFeedback />}
