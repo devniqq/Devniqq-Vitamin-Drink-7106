@@ -318,21 +318,21 @@ export function ImagerySection() {
             title="Kitchen"
             desc="Morning light, the can on the table, no fuss."
             className="bg-white"
-            src="/images/mood-kitchen.png"
+            src={`${import.meta.env.BASE_URL}images/mood-kitchen.png`}
             alt="devniqq Citrus can on a kitchen table in morning light"
           />
           <MoodTile
             title="Athletes"
             desc="Outdoor or studio, hard light, sharp contrast."
             className="bg-[var(--silver)]"
-            src="/images/mood-athletes.png"
+            src={`${import.meta.env.BASE_URL}images/mood-athletes.png`}
             alt="Runner holding a devniqq can after a run"
           />
           <MoodTile
             title="Everyday"
             desc="Desks, bags, real routines."
             className="bg-[var(--orange)]"
-            src="/images/mood-everyday.png"
+            src={`${import.meta.env.BASE_URL}images/mood-everyday.png`}
             alt="Person at a desk reaching for a devniqq can"
           />
         </div>
